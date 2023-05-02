@@ -1,0 +1,2 @@
+*{padding:5px}*,div{margin:0}main{display:grid;grid-auto-flow:column}h1,h2,h3{font-size:2em}.card,.side-card{width:300px;border:1px solid #000;border-radius:8px;text-align:center;margin:15px;box-shadow:1px 1px 5px #000}.card{background:linear-gradient(180deg,#0ff,#2c9efa)}.side-card{color:#fff;background-color:grey}img{width:156px}.Cart ol,.Cart ul{color:#444;background-color:#7fffd4;border:1px solid #0ff;border-radius:8px;box-shadow:1px 1px 3px #07f;height:inherit}.checkout input[type=submit]{color:#fff}
+/*# sourceMappingURL=main.232d139f.chunk.css.map */
