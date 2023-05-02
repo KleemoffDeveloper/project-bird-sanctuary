@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+div {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+h1, h2, h3 {
+    font-size: 2em;
+}
+
+.card, .side-card {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.card {
+    background: linear-gradient(to bottom, cyan, rgb(44, 158, 250));
+}
+
+.side-card {
+    color:white;
+    background-color: gray;
+}
+
+img {
+    width: 156px;
+}
+
+.Cart ol, .Cart ul {
+    color: rgb(68, 68, 68);
+    background-color: aquamarine;
+    border: 1px solid cyan;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgb(0, 119, 255);
+    height: inherit;
+}
+
+.checkout input[type="submit"] {
+    color: white;
+}

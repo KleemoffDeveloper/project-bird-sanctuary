@@ -9,3 +9,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+const scriptTags = document.querySelectorAll('script')
+for(const tag of scriptTags){
+  tag.remove()
+}
